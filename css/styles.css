@@ -107,6 +107,13 @@ svg {
 .modal-close-btn-icon {
   fill: currentColor;
 }
+.form-title {
+  font-weight: 500;
+  size: 16px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
 
 /* ...........HEADER */
 .page-header {
@@ -496,6 +503,74 @@ svg {
 .social-media-icon {
   fill: currentColor;
 }
+.footer-form-text {
+  color: var(--primary-white-color);
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 24px;
+}
+.footer-input {
+  max-width: 264px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: var(--title-text-color);
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.footer-form {
+  margin-left: 80px;
+  width: 453px;
+}
+.button-subscribe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+  border-radius: 4px;
+  font-family: inherit;
+  border: transparent;
+
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border: none;
+  cursor: pointer;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-subscribe:is(:hover, :focus) {
+  background-color: var(--special-buttons-color);
+}
+.subscribe-icon {
+  fill: var(--primary-white-color);
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.subscribe-form {
+  max-width: 453px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
 /*  Footer */
 
 /* PORTFOLIO PAGE SECTION */
